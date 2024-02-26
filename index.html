@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vasa Dunesh</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3307fbcee5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--Header-->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <p class="logo"> </p>
+
+        <ul id="slidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#myProjects">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Hello, I'm</p>
+        <h1>Vasa </h1>
+        <h2>Dunesh</h2>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/dunesh.vasa/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/vasa-dunesh-56b478268/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/VasaDunesh" target="_blank"><i class="fa-brands fa-github"></i> </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--About-->
+  <div id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="about-col-1">
+          <h1 class="st">About Me</h1>
+          <p>Challenging role in Research or Development or Python Developer to apply my academic background,
+            problem-solving skills, and enthusiasm for software development. Eager to contribute to innovative projects
+            and gain hands-on experience in a dynamic work environment.</p>
+
+          <div class="tab-titles">
+            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+            <div class="tab-links" onclick="opentab('ed')">Education</div>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Full Stack Developer </span><br>Website developer</li>
+              <li><span>Programming languages: </span><br>C, Java, Python</li>
+              <li><span>Databases:</span><br>MySQL, MongoDB</li>
+              <li><span>Web Technologies:</span><br>HTML, CSS, Familiar with FLASK.</li>
+              <li><span>Scripting languages:</span><br>Java Script, NodeJS, Angular</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="ed">
+            <ul>
+              <li><span>2018</span><br>
+                SSC (10th class)<br>
+                Viswa Bharati (E.M) High School<br>
+                Gudivada, Krishna(A.P), India<br>
+                CGPA- 8.12 <br>
+                Percentage- 88.35
+              </li>
+              <li><span>2018-2020</span><br>
+                Intermediate - MPC<br>
+                Narayana Junior College <br>
+                CGPA- 9.46 <br>
+                Percentage – 94
+              </li>
+              <li><span>2020</span><br>
+                
+                Bachelor of Technology – Computer Science and Engineering<br>
+                Seshadri Rao Gudlavalleru Engineering College<br>
+                Gudlavalleru, India <br>
+                CGPA- 8.09 (till date)<br>
+                Percentage- 80.53
+              </li>
+
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="about-col-2">
+          <img src="images/about.jpeg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--Services-->
+  <div id="services">
+    <div class="container">
+      <h1 class="st">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>I'm a Full Stack Developer certified through N-E-A-T and SmartBridge. Led the creation of "SkyPortal,"
+            a game-changing flight booking site. Proficient in backend setup, frontend design, and project leadership.
+          </p>
+          <a href="https://github.com/VASADUNESH/SkyPortal-Flight-Ticket-Booking-Website" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Python Developer</h2>
+          <p>As a Python developer, I've crafted various projects such as CommonPasswordChecker, GuessNumberGame, and
+            SentimentAnalysisBot.
+            Additionally, I've developed tools like PasswordGenerator, QrCodeGenerator, TaxCalculator, and
+            WebsiteChecker, showcasing proficiency across diverse
+            applications.</p>
+          <a href="https://github.com/VASADUNESH/My-Python-Projects" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Data scientist</h2>
+          <p>l learn how to analyze large datasets containing over a million ratings from MovieLens users. This involves
+            data cleaning, exploratory data analysis, and gaining insights from the data. I dones a project: "Movie
+            Recommender System based on Maximum Margin Matrix Factorization (MMMF)" project utilizes a dataset
+            containing over a million ratings from MovieLens users. The project demonstrates proficiency in data
+            analysis, collaborative filtering, and recommendation algorithms, showcasing the power of Python in building
+            intelligent systems for personalized user experiences.</p>
+          <a href="" target="_blank">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--myProjects-->
+  <div id="myProjects">
+    <div class="container">
+      <h1 class="st">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/mmmf.png" alt="work1">
+          <div class="layer">
+            <h3>Movie Recommender System based on Maximum Margin Matrix Factorization</h3>
+            <p>This (MMMF) project utilizes a dataset containing over a million ratings from MovieLens users. With
+              Python, I implemented machine learning algorithms
+              to create a recommendation system that suggests movies based on user preferences. The project demonstrates
+              proficiency in data analysis, collaborative
+              filtering, and recommendation algorithms, showcasing the power of Python in building intelligent systems
+              for personalized user experiences..</p>
+            <a href="#" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/skyportal.png" alt="work-2">
+          <div class="layer">
+            <h3>SkyPortal: Flight Ticket Booking Website</h3>
+            <p>I've completed the Externship Program in Full Stack Development with SmartBridge through the National
+              Educational Alliance for Technology (N-E-A-T).
+              🌟Under the mentorship of Jayaprakash Ch, Program Manager at SmartInternz, I've successfully honed my
+              skills and gained practical experience in
+              Full Stack Development. 💻Special highlight: I led a project titled "SkyPortal: Flight Ticket Booking
+              Website," where I spearheaded the development of a
+              revolutionary platform that redefines the travel booking experience. 🛫</p>
+            <a href="https://github.com/VASADUNESH/SkyPortal-Flight-Ticket-Booking-Website" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/qrcode.png" alt="work3">
+          <div class="layer">
+            <h3>Qr Code Generator </h3>
+            <p>QR code generator using Streamlit and the qrcode library. This user-friendly tool allows users to input
+              text, customize QR code size, padding, and colors,
+              and swiftly generate QR codes with just a click. It exemplifies the developer's adeptness in leveraging
+              Python libraries to develop practical applications
+              for various purposes.</p>
+            <a href="https://github.com/VASADUNESH/My-Python-Projects/tree/main/QrCodeGenerator" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/VASADUNESH?tab=repositories" class="btn" target="_blank" >see more</a>
+    </div>
+  </div>
+
+
+  <!--Contact-->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="st">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i><a href="mailto:duneshvasa@gmail.com" target="_blank"> duneshvasa@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="" target="_blank" > 6302 647 841</a></p>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/dunesh.vasa/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/vasa-dunesh-56b478268/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/VasaDunesh" target="_blank"><i class="fa-brands fa-github"></i> </a>
+          </div>
+          <a href="/images/20481A05O3_VasaDunesh.pdf" download class="btn btn2" target="_blank">Download CV</a>
+        </div>
+        <div class="contact-right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
