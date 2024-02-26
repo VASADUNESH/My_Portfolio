@@ -23,5 +23,3 @@ CSS3
 JavaScript
 How to Use
 To view the website, simply open the index.html file in a web browser. Alternatively, you can deploy the website to a web hosting service to make it accessible online.
-
-Feel free to explore the code and customize it according to your own needs. If you have any questions or suggestions, don't hesitate to reach out to Vasa Dunesh via the contact information provided in the portfolio.
