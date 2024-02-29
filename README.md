@@ -21,5 +21,7 @@ Technologies Used
 HTML5
 CSS3
 JavaScript
+Used for icons from fontawesome
+Used an api web3forms
 How to Use
 To view the website, simply open the index.html file in a web browser. Alternatively, you can deploy the website to a web hosting service to make it accessible online.
