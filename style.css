@@ -279,7 +279,14 @@ nav ul li a:hover::after {
 }
 
 .layer p {
+  font-weight: 200;
+  color: #fff;
+}
+
+.layer p spam {
+  color: antiquewhite;
   font-weight: 900;
+  font-size: 18px;
 }
 
 .layer a {
